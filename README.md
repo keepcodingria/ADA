@@ -201,15 +201,23 @@ Algorithm:
 Time Complexity:
 O(2^n)
 
- 15. Velocity 
+15. Velocity (velocity.cpp)
 
 Aim:
-To calculate velocity using basic formula.
+To calculate velocity using different motion formulas.
 
 Algorithm:
 
-1. Take distance and time as input.
-2. Compute velocity = distance / time.
+1. Take required inputs (distance, time, acceleration, initial velocity, final velocity).
+2. Calculate velocity using:
+
+    v = distance / time
+    v = u + at
+    v^2 = u^2 + 2as 
+3. Display the result.
+
+Time Complexity:
+O(1)
 
 
 
