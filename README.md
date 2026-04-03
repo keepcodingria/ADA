@@ -9,7 +9,7 @@ Name: Ria Singh
  Aim
 To implement and understand various algorithms as part of ADA lab.
 
-1. Tower of Hanoi (TOH.py / tower-of-hanoi.cpp)
+1. Tower of Hanoi
 
 Aim:
 To solve the Tower of Hanoi problem using recursion.
@@ -134,7 +134,7 @@ Algorithm:
 Time Complexity:
 O(n)
 
- 10. Power (power.cpp)
+ 10. Power 
 
 Aim:
 To calculate power of a number using recursion.
@@ -160,8 +160,7 @@ Algorithm:
 Time Complexity:
 O(n)
 
- 12. First Duplicate Element (firstDuplicate.cpp)
-
+ 12. First Duplicate Eleeement
 Aim:
 To find first duplicate element in an array.
 
@@ -174,7 +173,7 @@ Algorithm:
 Time Complexity:
 O(n)
 
- 13. String Permutation (stringPermutation.cpp)
+ 13. String Permutation
 
 Aim:
 To generate all permutations of a string.
@@ -188,7 +187,7 @@ Time Complexity:
 O(n!)
 
 
- 14. Truth Table (truth-table.cpp)
+ 14. Truth Table 
 
 Aim:
 To generate truth table for logical expressions.
@@ -202,7 +201,7 @@ Algorithm:
 Time Complexity:
 O(2^n)
 
- 15. Velocity (velocity.cpp)
+ 15. Velocity 
 
 Aim:
 To calculate velocity using basic formula.
