@@ -50,7 +50,7 @@ void prims(int graph[MAX][MAX],int vertices)
   }
 
 cout<<"edge:weight"<<endl;
-for(int i=1;i<vertices;i++) // since parent of 0 is -1 , start from i=1
+for(int i=1;i<vertices;i++) 
 {
     cout<<parent[i]<<"-"<<i<< ": "<< graph[i][parent[i]]<<endl;
 }
