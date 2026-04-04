@@ -216,9 +216,24 @@ Algorithm:
     v = u + at
     v^2 = u^2 + 2as 
 3. Display the result.
-
-Time Complexity:
+   Time Complexity:
 O(1)
+
+16. prims algorithm
+
+Aim:
+to make mst from a graphh. 
+
+Algorithm :
+1. the data structures used are-
+  an array to store which vertex i will connect to mst- key[] , an array to store which vertex will connect to i- parent[], an array to keep track of what is added to the mst- mst[] and finally an adjecency matrix.
+2. we pick the minimum wt vertex and add it to mst.
+* this algorithm can also be implemented using a min heap ( gives better time complexity that is O(E log V)
+
+  time complexity-
+  O(V^2)
+   
+
 
 
 
