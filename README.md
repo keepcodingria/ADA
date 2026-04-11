@@ -246,5 +246,18 @@ Algorithm:
 5. return max_profit.
 
 time complexity-
-O(n log n) is for sorting, O(n) for selecting item-> O(nlogn)
+O(n log n) is for sorting, O(n) for selecting item-> O(nlogn).
+
+18.Kruskal's algorithm-
+
+aim- To find the Minimum Spanning Tree (MST) of a weighted graph.
+
+algorithm- 
+Sort all edges in increasing order of weight.
+Initialize each vertex as a separate set (using Disjoint Set / Union-Find).
+Pick the smallest edge.
+If it forms a cycle then reject
+Else include in MST.
+Perform union of the sets.
+Repeat till MST has (V - 1) edges.
    
