@@ -70,7 +70,7 @@ void activityselection(activity arr[],int n)
 
     cout<<"("<<arr[i].start<<","<<arr[i].finish<<")";
 
-    for(int j=0;j<n;j++)
+    for(int j=1;j<n;j++) // first act already selected, so j=1
     {
         if(arr[j].start>=arr[i].finish)
         {
@@ -83,8 +83,9 @@ void activityselection(activity arr[],int n)
 int main()
 {
     int n;
-    activity arr[n];
     cout<<"enter no. of activies: ";
+     cin>>n;
+    activity arr[n];
     for(int i=0;i<n;i++)
 {
     cout<<"enter start and finish time: "<<endl;
