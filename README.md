@@ -233,7 +233,7 @@ Algorithm :
   time complexity-
   O(V^2)
 
-  17. fractional knapsack problem
+17. fractional knapsack problem
  
  Aim:
 To implement the Fractional Knapsack Problem using a greedy approach to maximize total profit within a given capacity.
