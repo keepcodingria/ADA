@@ -260,4 +260,46 @@ If it forms a cycle then reject
 Else include in MST.
 Perform union of the sets.
 Repeat till MST has (V - 1) edges.
-   
+
+time complexity- 
+Sorting edges
+Using Merge Sort:
+𝑂(𝐸logE)
+Union-Find operations:
+find + union
+With path compression:
+O(ElogV)
+therefore, O(E log E)
+
+19. cycle detection(undirected)-
+
+aim-
+To detect cycle in an undirected graph.
+
+algorithm-
+Use visited[]
+Pass parent in DFS
+For each neighbor:
+If not visited → DFS
+If visited and not parent → cycle.
+
+time complexity-
+adj list->O(V+E)
+adj matrix-> O(V^2)
+
+20. cycle detection(directed)-
+
+Aim-
+To detect cycle in a directed graph.
+
+algorithm-
+Use visited[] and path[]
+Mark node visited and in path
+For each neighbor:
+If not visited → DFS
+If in path → cycle
+Remove node from path.
+
+time complexity-
+adj list->O(V+E)
+adj matrix-> O(V^2)
