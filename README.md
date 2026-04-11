@@ -232,4 +232,19 @@ Algorithm :
 
   time complexity-
   O(V^2)
+
+  17. fractional knapsack problem
+ 
+ Aim:
+To implement the Fractional Knapsack Problem using a greedy approach to maximize total profit within a given capacity.
+
+Algorithm:
+1. calculate ratio -> profit[i]/ weight[i]for each item.
+2. sort the ratio in non- increasing order.
+3. initialize the max_profit=0.
+4. if wt of item is less than or equal to capacity of knapsack, take full item, else take fraction and stop.
+5. return max_profit.
+
+time complexity-
+O(n log n) is for sorting, O(n) for selecting item-> O(nlogn)
    
