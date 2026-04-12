@@ -303,3 +303,22 @@ Remove node from path.
 time complexity-
 adj list->O(V+E)
 adj matrix-> O(V^2)
+
+21. dijkstra algorithm
+
+Aim- 
+To find minimum distance from src to destination. 
+
+Algorithm-
+1.Initialize distance of all vertices as infinity, and source as 0.
+2.Mark all vertices as unvisited.
+3.select the unvisited vertex with the minimum distance.
+4.Mark it as visited.
+5.Update distances of its adjacent vertices:
+6.If dist[u] + weight(u,v) < dist[v], update dist[v].
+
+time complexity- 
+O(V²) using array
+O((V + E) log V) using min heap.
+
+
